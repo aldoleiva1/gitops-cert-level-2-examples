@@ -4,8 +4,8 @@ metadata:
   name: simple-hpa
   namespace: example01
 spec:
-  maxReplicas: 8
-  minReplicas: 3
+  maxReplicas: 1
+  minReplicas: 1
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
